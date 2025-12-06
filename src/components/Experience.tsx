@@ -35,20 +35,20 @@ const Experience = () => {
       type: "work",
       title: "Senior Software Engineer",
       organization: "Mphasis Ltd",
-      date: "Jun 2022 - Jun 2024",
+      date: "Jul 2024 - May 2025",
       points: [
-        "Led cross-functional collaboration with 10+ engineers to migrate critical legacy applications from Mainframe to Cloud for a Fortune 500 client, modernizing infrastructure used by millions and aligning with long-term digital transformation goals, minimizing the application's downtime by 30%.",
-        "Maintained system reliability and safeguarded critical data during the seamless migration of 100TB+ data and millions of code lines, driving a measurable reduction in system maintenance costs.",
+        "Led the application validation workstream for a critical mainframe-to-cloud transformation, ensuring business continuity and data integrity with a 40% reduction in downtime risk for a Fortune 50 client.",
+        "Analyzed and optimized ETL data workflows to improve data accuracy by ~25% and reduce processing time, strengthening reliability for reporting pipelines.",
       ],
     },
     {
       type: "work",
       title: "Software Engineer",
       organization: "Mphasis Ltd",
-      date: "Jul 2024 - May 2025",
+      date: "Jun 2022 - Jun 2024",
       points: [
-        "Enhanced data reliability and processing speed by validating and optimizing ETL workflows using Ab Initio, resulting in a ~25% increase in data accuracy and improved processing speed through data analysis.",
-        "Co-developed a full-stack Resource Management System with a 6 member agile team, streamlining allocation for 2000+ internal users and reducing manual effort and improving internal productivity",
+        "Co-developed a Trainee Resource Allocation Management System used by 2000+ internal users by gathering stakeholder requirements and collaborating with design and engineering to build scalable workflows.",
+        "Coordinated cross-functional discussions with QA, business teams, and architects to ensure the timely delivery of enhancements and improved defect resolution efficiency by 35%.",
       ],
     },
     {
