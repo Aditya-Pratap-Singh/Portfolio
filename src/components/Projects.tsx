@@ -33,6 +33,20 @@ const Projects = () => {
     */
     {
       id: 3,
+      title: "AutoDocs – AI SOP Generator",
+      summary: "Automated SOP creation using multimodal AI, cutting documentation time by 90%.",
+      image: AISecurityCheck,
+      tags: ["Generative AI", "Multimodal AI", "Google AI Studio", "Automation", "No-Code"],
+      objective:
+        "Enterprise teams waste significant time manually writing Standard Operating Procedures (SOPs) from recorded workflows and screen captures. The objective was to eliminate this bottleneck by building a multimodal AI agent that watches process videos and automatically generates structured, ready-to-use SOPs — with zero manual documentation effort.",
+      //role: "Product Management Coursework Project - Conducted comprehensive UX audit and designed streamlined onboarding flow as part of Product Design & Development course.",
+      process:
+        "Built using Google's Gemini 3 model via Google AI Studio, the agent accepts process walkthrough videos as input. It applies intent-based video reasoning to understand each step being demonstrated, extracts the logical sequence of actions, and produces a formatted SOP document. The pipeline was designed to be fully automated — from video ingestion to document output — with no human intervention required in between.",
+      results:
+        "The agent reduced SOP documentation time by 90%, transforming a multi-hour manual task into a near-instant automated output. Teams were able to onboard faster, maintain more consistent documentation, and scale process documentation across departments without additional headcount. Built using Google AI Studio, this project demonstrated a practical, production-ready application of multimodal generative AI in an enterprise workflow context.",
+    },
+    {
+      id: 3,
       title: "AI Powered Security Agent",
       summary: "Automated Security Monitoring with AI Insights",
       image: AISecurityCheck,
