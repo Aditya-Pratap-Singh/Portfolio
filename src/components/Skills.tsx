@@ -76,7 +76,7 @@ const Skills = () => {
           Skills & Expertise
         </h2>
 
-        <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto">
           {skillCategories.map((category, idx) => {
             const CategoryIcon = category.icon;
             return (
