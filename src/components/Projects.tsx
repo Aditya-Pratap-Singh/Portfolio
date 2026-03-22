@@ -11,6 +11,8 @@ import Yelp from "@/assets/Yelp.png";
 import TechSelect from "@/assets/TechSelect.png";
 import AISecurityCheck from "@/assets/AISecurityCheck.png";
 import Patient from "@/assets/Patient.png";
+import AutoDocs from "@/assets/autodocs_cover.svg";
+import LocalPDF from "@/assets/localpdf_cover.svg";
 
 
 interface Project {
@@ -35,7 +37,7 @@ const Projects = () => {
       id: 3,
       title: "AutoDocs – AI SOP Generator",
       summary: "Automated SOP creation using multimodal AI, cutting documentation time by 90%.",
-      image: AISecurityCheck,
+      image: AutoDocs,
       tags: ["Generative AI", "Multimodal AI", "Google AI Studio", "Automation", "No-Code"],
       objective:
         "Enterprise teams waste significant time manually writing Standard Operating Procedures (SOPs) from recorded workflows and screen captures. The objective was to eliminate this bottleneck by building a multimodal AI agent that watches process videos and automatically generates structured, ready-to-use SOPs — with zero manual documentation effort.",
@@ -49,7 +51,7 @@ const Projects = () => {
       id: 3,
       title: "LocalPDF – Privacy-First PDF Toolkit",
       summary: "A local desktop app for all your PDF needs — no uploads, no cloud, no privacy risk.",
-      image: AISecurityCheck,
+      image: LocalPDF,
       tags: ["Desktop App", "Google Antigravity", "Vibe Coding", "Privacy", "Productivity"],
       objective:
         "Popular online PDF tools like Smallpdf and iLovePDF require you to upload your files to their servers, creating a real risk that sensitive documents are stored, scanned, or misused. The objective was to build a privacy-first alternative that runs entirely on your personal computer — giving users all the same PDF utilities without ever sending a file to the cloud.",
