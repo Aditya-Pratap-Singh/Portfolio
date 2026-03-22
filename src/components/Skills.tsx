@@ -8,7 +8,6 @@ import {
   Database,
   LineChart,
   Calculator,
-  Boxes,
   Figma,
   ListTodo
 } from "lucide-react";
@@ -25,23 +24,6 @@ const Skills = () => {
         { name: "User Research", icon: Users },
         { name: "Wireframing", icon: Figma },
         { name: "A/B Testing", icon: TestTube },
-        { name: "Competitive Analysis", icon: TrendingUp },
-        { name: "Product Strategy", icon: Compass },
-        { name: "Stakeholder Management", icon: Users },
-        { name: "Risk Mitigation Planning", icon: Shield },
-      ],
-    },
-    {
-      title: "AI & Automation",
-      icon: Brain,
-      skills: [
-        { name: "Generative AI", icon: Bot },
-        { name: "LLM Prompting", icon: Brain },
-        { name: "No-Code AI Agents", icon: Zap },
-        { name: "Multimodal AI", icon: Cpu },
-        { name: "AI Prototyping", icon: FlaskConical },
-        { name: "N8N Automation", icon: Zap },
-        { name: "Google AI Studio", icon: Bot },
       ],
     },
     {
@@ -51,20 +33,15 @@ const Skills = () => {
         { name: "SQL", icon: Database },
         { name: "Data Visualization", icon: LineChart },
         { name: "Statistical Analysis", icon: BarChart3 },
-        { name: "Exploratory Data Analysis", icon: Search },
-        { name: "Predictive Modelling", icon: PieChart },
       ],
     },
     {
       title: "Tools & Technologies",
-      icon: Boxes,
+      icon: BarChart3,
       skills: [
         { name: "Agility", icon: ListTodo },
         { name: "Figma", icon: Figma },
         { name: "Python", icon: Database },
-        { name: "Google Antigravity", icon: Zap },
-        { name: "VirusTotal API", icon: Shield },
-        { name: "Gemini / Vertex AI", icon: Bot },
       ],
     },
   ];
