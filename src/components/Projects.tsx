@@ -47,6 +47,20 @@ const Projects = () => {
     },
     {
       id: 3,
+      title: "LocalPDF – Privacy-First PDF Toolkit",
+      summary: "A local desktop app for all your PDF needs — no uploads, no cloud, no privacy risk.",
+      image: AISecurityCheck,
+      tags: ["Desktop App", "Google Antigravity", "Vibe Coding", "Privacy", "Productivity"],
+      objective:
+        "Popular online PDF tools like Smallpdf and iLovePDF require you to upload your files to their servers, creating a real risk that sensitive documents are stored, scanned, or misused. The objective was to build a privacy-first alternative that runs entirely on your personal computer — giving users all the same PDF utilities without ever sending a file to the cloud.",
+      //role: "Product Management Coursework Project - Conducted comprehensive UX audit and designed streamlined onboarding flow as part of Product Design & Development course.",
+      process:
+        "Built using Google Antigravity, Google's agentic development platform, the app was vibe coded by describing the desired features in natural language and letting Antigravity's AI agents autonomously plan, write, and verify the code across the editor and terminal. The result is a fully local desktop application that supports core PDF operations including compression, PDF-to-other-format conversion, and other-format-to-PDF conversion — all processed on-device.",
+      results:
+        "LocalPDF delivers the full feature set of popular online PDF tools with zero privacy compromise. Since all processing happens locally on the user's machine, no files are ever uploaded or stored externally. This makes it particularly valuable for handling confidential documents — legal files, financial records, personal data — where cloud-based tools pose an unacceptable risk. The project also demonstrated the power of Google Antigravity as a vibe coding tool, going from idea to working desktop app through natural language prompting alone.",
+    },
+    {
+      id: 3,
       title: "AI Powered Security Agent",
       summary: "Automated Security Monitoring with AI Insights",
       image: AISecurityCheck,
