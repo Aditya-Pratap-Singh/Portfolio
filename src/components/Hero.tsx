@@ -23,7 +23,7 @@ const Hero = () => {
                 </span>
               </h1>
               <p className="text-xl md:text-2xl text-muted-foreground font-medium">
-                MBA Candidate | Product Management & Business Analytics
+                Product Management & Business Analytics
               </p>
             </div>
 
@@ -54,7 +54,7 @@ const Hero = () => {
               <img
                 src={headshotImage}
                 alt="Aditya Pratap Singh - MBA Student"
-                className="relative rounded-2xl shadow-card w-full max-w-sm object-cover"
+                className="relative rounded-2xl shadow-card w-full max-w-sm aspect-square object-cover object-top"
               />
             </div>
           </div>

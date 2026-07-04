@@ -4,12 +4,17 @@ import {
   FileText, 
   TestTube, 
   TrendingUp,
-  BarChart3,
   Database,
   LineChart,
-  Calculator,
   Figma,
-  ListTodo
+  ListTodo,
+  Search,
+  Kanban,
+  Brain,
+  Cog,
+  Cloud,
+  MessageSquare,
+  Layers
 } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
@@ -19,29 +24,33 @@ const Skills = () => {
       title: "Product Management",
       icon: Target,
       skills: [
-        { name: "Product Roadmap", icon: FileText },
-        { name: "Agile/Scrum", icon: ListTodo },
-        { name: "User Research", icon: Users },
-        { name: "Wireframing", icon: Figma },
+        { name: "Roadmapping & PRDs", icon: FileText },
+        { name: "Discovery & Research", icon: Search },
         { name: "A/B Testing", icon: TestTube },
+        { name: "OKRs & KPIs", icon: Target },
+        { name: "Go-to-Market", icon: TrendingUp },
+        { name: "Backlog Management", icon: Kanban },
       ],
     },
     {
-      title: "Business Analytics",
-      icon: BarChart3,
+      title: "Technical & AI",
+      icon: Brain,
       skills: [
-        { name: "SQL", icon: Database },
-        { name: "Data Visualization", icon: LineChart },
-        { name: "Statistical Analysis", icon: BarChart3 },
+        { name: "SQL & Data Analytics", icon: Database },
+        { name: "AI/ML Product Sense", icon: Brain },
+        { name: "LLM & Prompt Eng", icon: MessageSquare },
+        { name: "API Design", icon: Cog },
       ],
     },
     {
-      title: "Tools & Technologies",
-      icon: BarChart3,
+      title: "Tools & Methodologies",
+      icon: Layers,
       skills: [
-        { name: "Agility", icon: ListTodo },
+        { name: "Scrum/Agile & SAFe", icon: Users },
+        { name: "Jira & Notion", icon: ListTodo },
         { name: "Figma", icon: Figma },
-        { name: "Python", icon: Database },
+        { name: "Google Analytics", icon: LineChart },
+        { name: "AWS", icon: Cloud },
       ],
     },
   ];
